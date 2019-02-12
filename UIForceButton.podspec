@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
 
   s.author             = { "Kid Young" => "kidyoungx@gmail.com" }
 
-  s.platform     = :ios, "5.0"
+  s.platform     = :ios, "9.0"
 
   s.source       = { :git => "https://github.com/kidyoungx/UIForceButton.git", :tag => "#{s.version}" }
 
