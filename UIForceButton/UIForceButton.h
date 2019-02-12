@@ -11,7 +11,7 @@
 NS_ASSUME_NONNULL_BEGIN
 #define UIControlEventTouchForce (1 << 9)      // on all touch force free:9,10,11
 
-@interface UIForceButton : UIButton
+NS_CLASS_AVAILABLE_IOS(9_0) @interface UIForceButton : UIButton
 
 @end
 
